@@ -26,13 +26,14 @@ public class JavaCollection {
 		intArr.remove(1);
 		intArr.remove(4);
 		System.out.println(intArr);
-		
-		 // Use get method to get the element at index 1
-		
-		System.out.println("Element at inderx 2 is "+ intArr.get(2));
-		
-		//Reverse array list
-		intArr.r
+
+		// Use get method to get the element at index 1
+
+		System.out.println("Element at inderx 2 is " + intArr.get(2));
+
+		// Reverse array list
+		Collections.reverse(intArr);
+		System.out.println(intArr);
 
 		ArrayList<Double> deciNum = new ArrayList<Double>();
 
